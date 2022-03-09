@@ -1,15 +1,11 @@
 package com.example.simpleparadox.listycity;
 
-import static org.testng.AssertJUnit.assertEquals;
-
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.ListAdapter;
 import android.widget.ListView;
-
-import org.testng.annotations.Test;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
@@ -57,12 +53,6 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-    }
-    @Test
-    public void addCityTest(){
-        int listSize = list.getCount();
-        list.addCity(new City("Halifax", "NS");
-        assertEquals(list.getCount(), listSize + 1);
     }
 
 }
