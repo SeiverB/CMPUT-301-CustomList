@@ -10,6 +10,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
+import org.junit.experimental.theories.suppliers.TestedOn;
 import org.w3c.dom.Text;
 
 import java.util.ArrayList;
@@ -25,6 +26,7 @@ public class CustomList extends ArrayAdapter<City> {
         this.context = context;
     }
 
+    private CustomList list;
 
     @NonNull
     @Override
@@ -47,4 +49,22 @@ public class CustomList extends ArrayAdapter<City> {
         return view;
 
     }
+
+    /**
+     * this function will get the size of the list
+     * @return
+     */
+    public int getCount(){
+        return cities.size();
+    }
+
+    /**
+     * this function will add a city to the list
+     * @param city
+     */
+    public void addCity(City city){
+        return;
+    }
+
+
 }

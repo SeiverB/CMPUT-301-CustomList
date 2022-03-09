@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
     ArrayList<City> cityDataList;
 
     CustomList customList;
+    private CustomList list;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,6 +42,8 @@ public class MainActivity extends AppCompatActivity {
 
         cityList.setAdapter(cityAdapter);
 
+
+
 //        dataList = new ArrayList<>();
 //        dataList.addAll(Arrays.asList(cities));
 //
@@ -51,6 +54,5 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
-
 
 }
