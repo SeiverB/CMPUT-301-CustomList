@@ -6,12 +6,14 @@ import com.example.simpleparadox.listycity.CustomList;
 import org.junit.Before;
 import org.testng.annotations.Test;
 
+import java.util.ArrayList;
+
 public class CustomListTest {
-    private CustomList test;
+    private CustomList list;
 
     @Before
     public void createList(){
-        list = new CustomList(null, new Arraylist<City>());
+        list = new CustomList(null, new ArrayList<City>());
     }
 
     @Test
